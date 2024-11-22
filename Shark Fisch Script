@@ -1,0 +1,43 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/RoStormCreations/RoShark/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Shark - Fisch Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "SharkWare", IntroText = "SharkWare", IntroIcon = ""})
+OrionLib:MakeNotification({
+	Name = "SharkWare",
+	Content = "Version 0.0.1",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+local Main = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Main:AddButton({
+	Name = "SPEED X HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  	end    
+})
+Main:AddButton({
+	Name = "BONK HUB V2",
+	Callback = function()
+loadstring(game:HttpGet("https://bonkhubloader.netlify.app",true))()
+  	end    
+})
+main:AddButton({
+    Name = "PRISTINE HUB",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RSenix3/PrestineHub/refs/heads/main/PrestineKeyless"))()
+    end
+})
+Main:AddButton({
+	Name = "FORGE HUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+  	end    
+})
+Main:AddButton({
+	Name = "ALLUX HUB",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iminreality/Allux/refs/heads/main/Fish_Dupe.lua"))()
+	end    
+})
