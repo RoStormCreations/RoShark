@@ -23,7 +23,7 @@ Main:AddButton({
 loadstring(game:HttpGet("https://bonkhubloader.netlify.app",true))()
   	end    
 })
-main:AddButton({
+Main:AddButton({
     Name = "PRISTINE HUB",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RSenix3/PrestineHub/refs/heads/main/PrestineKeyless"))()
