@@ -1,4 +1,4 @@
-[inputs."icons/activity.png"]
+Icons {
 hash = "15342377ca80536afd7f03ae5ff2eef275d73005516dc6dadb32accfb2b71880"
 id = 7072704415
 packable = false
@@ -1302,8 +1302,7 @@ packable = false
 hash = "914638589fe7647b75652722134e3ffb8c54553cd45e4c0f3d22f1caf39cf892"
 id = 7072724596
 packable = false
-
-[inputs."icons/video-off.png"]
+  
 hash = "7bc94cb44ce204b41616ea12129f2ca7a338c42b8e37f6ae61e027d0b08260d4"
 id = 7072724672
 packable = false
@@ -1373,3 +1372,4 @@ packable = false
 hash = "291f2ca6e288f107e1457d20e9ecb69c6675731f8fa4c0aa21ad824d64ba305c"
 id = 7072725530
 packable = false
+}
