@@ -11,33 +11,20 @@ local Main = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Main:AddButton({
-	Name = "SPEED X HUB",
+local Others = Window:MakeTab({
+	Name = "Others",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Others:AddButton({
+	Name = "SpeedX",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   	end    
 })
-Main:AddButton({
-	Name = "BONK HUB V2",
+Others:AddButton({
+	Name = "Bonk",
 	Callback = function()
 loadstring(game:HttpGet("https://bonkhubloader.netlify.app",true))()
   	end    
-})
-Main:AddButton({
-    Name = "PRISTINE HUB",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RSenix3/PrestineHub/refs/heads/main/PrestineKeyless"))()
-    end
-})
-Main:AddButton({
-	Name = "FORGE HUB",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
-  	end    
-})
-Main:AddButton({
-	Name = "ALLUX HUB",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/iminreality/Allux/refs/heads/main/Fish_Dupe.lua"))()
-	end    
 })
